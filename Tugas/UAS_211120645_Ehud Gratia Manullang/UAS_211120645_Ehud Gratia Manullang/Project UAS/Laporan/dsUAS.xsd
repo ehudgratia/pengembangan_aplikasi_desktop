@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsUAS" targetNamespace="http://tempuri.org/dsUAS.xsd" xmlns:mstns="http://tempuri.org/dsUAS.xsd" xmlns="http://tempuri.org/dsUAS.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsUAS" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsUAS" msprop:Generator_UserDSName="dsUAS">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Pelanggan" msprop:Generator_TableClassName="PelangganDataTable" msprop:Generator_TableVarName="tablePelanggan" msprop:Generator_TablePropName="Pelanggan" msprop:Generator_RowDeletingName="PelangganRowDeleting" msprop:Generator_RowChangingName="PelangganRowChanging" msprop:Generator_RowEvHandlerName="PelangganRowChangeEventHandler" msprop:Generator_RowDeletedName="PelangganRowDeleted" msprop:Generator_UserTableName="Pelanggan" msprop:Generator_RowChangedName="PelangganRowChanged" msprop:Generator_RowEvArgName="PelangganRowChangeEvent" msprop:Generator_RowClassName="PelangganRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDPelanggan" msprop:Generator_ColumnVarNameInTable="columnIDPelanggan" msprop:Generator_ColumnPropNameInRow="IDPelanggan" msprop:Generator_ColumnPropNameInTable="IDPelangganColumn" msprop:Generator_UserColumnName="IDPelanggan" type="xs:string" />
+              <xs:element name="NamaPelanggan" msprop:Generator_ColumnVarNameInTable="columnNamaPelanggan" msprop:Generator_ColumnPropNameInRow="NamaPelanggan" msprop:Generator_ColumnPropNameInTable="NamaPelangganColumn" msprop:Generator_UserColumnName="NamaPelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="Alamat" msprop:Generator_ColumnVarNameInTable="columnAlamat" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_UserColumnName="Alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="NoHP" msprop:Generator_ColumnVarNameInTable="columnNoHP" msprop:Generator_ColumnPropNameInRow="NoHP" msprop:Generator_ColumnPropNameInTable="NoHPColumn" msprop:Generator_UserColumnName="NoHP" type="xs:string" minOccurs="0" />
+              <xs:element name="JenisPelanggan" msprop:Generator_ColumnVarNameInTable="columnJenisPelanggan" msprop:Generator_ColumnPropNameInRow="JenisPelanggan" msprop:Generator_ColumnPropNameInTable="JenisPelangganColumn" msprop:Generator_UserColumnName="JenisPelanggan" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Menu" msprop:Generator_TableClassName="MenuDataTable" msprop:Generator_TableVarName="tableMenu" msprop:Generator_RowChangedName="MenuRowChanged" msprop:Generator_TablePropName="Menu" msprop:Generator_RowDeletingName="MenuRowDeleting" msprop:Generator_RowChangingName="MenuRowChanging" msprop:Generator_RowEvHandlerName="MenuRowChangeEventHandler" msprop:Generator_RowDeletedName="MenuRowDeleted" msprop:Generator_RowClassName="MenuRow" msprop:Generator_UserTableName="Menu" msprop:Generator_RowEvArgName="MenuRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IDMenu" msprop:Generator_ColumnVarNameInTable="columnIDMenu" msprop:Generator_ColumnPropNameInRow="IDMenu" msprop:Generator_ColumnPropNameInTable="IDMenuColumn" msprop:Generator_UserColumnName="IDMenu" type="xs:string" />
+              <xs:element name="NamaMenu" msprop:Generator_ColumnVarNameInTable="columnNamaMenu" msprop:Generator_ColumnPropNameInRow="NamaMenu" msprop:Generator_ColumnPropNameInTable="NamaMenuColumn" msprop:Generator_UserColumnName="NamaMenu" type="xs:string" minOccurs="0" />
+              <xs:element name="Harga" msprop:Generator_ColumnVarNameInTable="columnHarga" msprop:Generator_ColumnPropNameInRow="Harga" msprop:Generator_ColumnPropNameInTable="HargaColumn" msprop:Generator_UserColumnName="Harga" type="xs:string" minOccurs="0" />
+              <xs:element name="JenisMenu" msprop:Generator_ColumnVarNameInTable="columnJenisMenu" msprop:Generator_ColumnPropNameInRow="JenisMenu" msprop:Generator_ColumnPropNameInTable="JenisMenuColumn" msprop:Generator_UserColumnName="JenisMenu" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Meja" msprop:Generator_TableClassName="MejaDataTable" msprop:Generator_TableVarName="tableMeja" msprop:Generator_RowChangedName="MejaRowChanged" msprop:Generator_TablePropName="Meja" msprop:Generator_RowDeletingName="MejaRowDeleting" msprop:Generator_RowChangingName="MejaRowChanging" msprop:Generator_RowEvHandlerName="MejaRowChangeEventHandler" msprop:Generator_RowDeletedName="MejaRowDeleted" msprop:Generator_RowClassName="MejaRow" msprop:Generator_UserTableName="Meja" msprop:Generator_RowEvArgName="MejaRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NoMeja" msprop:Generator_ColumnVarNameInTable="columnNoMeja" msprop:Generator_ColumnPropNameInRow="NoMeja" msprop:Generator_ColumnPropNameInTable="NoMejaColumn" msprop:Generator_UserColumnName="NoMeja" type="xs:string" />
+              <xs:element name="JenisMeja" msprop:Generator_ColumnVarNameInTable="columnJenisMeja" msprop:Generator_ColumnPropNameInRow="JenisMeja" msprop:Generator_ColumnPropNameInTable="JenisMejaColumn" msprop:Generator_UserColumnName="JenisMeja" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Sales" msprop:Generator_TableClassName="SalesDataTable" msprop:Generator_TableVarName="tableSales" msprop:Generator_TablePropName="Sales" msprop:Generator_RowDeletingName="SalesRowDeleting" msprop:Generator_RowChangingName="SalesRowChanging" msprop:Generator_RowEvHandlerName="SalesRowChangeEventHandler" msprop:Generator_RowDeletedName="SalesRowDeleted" msprop:Generator_UserTableName="Sales" msprop:Generator_RowChangedName="SalesRowChanged" msprop:Generator_RowEvArgName="SalesRowChangeEvent" msprop:Generator_RowClassName="SalesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="SalesID" msprop:Generator_ColumnVarNameInTable="columnSalesID" msprop:Generator_ColumnPropNameInRow="SalesID" msprop:Generator_ColumnPropNameInTable="SalesIDColumn" msprop:Generator_UserColumnName="SalesID" type="xs:string" />
+              <xs:element name="SalesDate" msprop:Generator_ColumnVarNameInTable="columnSalesDate" msprop:Generator_ColumnPropNameInRow="SalesDate" msprop:Generator_ColumnPropNameInTable="SalesDateColumn" msprop:Generator_UserColumnName="SalesDate" type="xs:string" minOccurs="0" />
+              <xs:element name="IDPelanggan" msprop:Generator_ColumnVarNameInTable="columnIDPelanggan" msprop:Generator_ColumnPropNameInRow="IDPelanggan" msprop:Generator_ColumnPropNameInTable="IDPelangganColumn" msprop:Generator_UserColumnName="IDPelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="NamaPelanggan" msprop:Generator_ColumnVarNameInTable="columnNamaPelanggan" msprop:Generator_ColumnPropNameInRow="NamaPelanggan" msprop:Generator_ColumnPropNameInTable="NamaPelangganColumn" msprop:Generator_UserColumnName="NamaPelanggan" type="xs:string" />
+              <xs:element name="Alamat" msprop:Generator_ColumnVarNameInTable="columnAlamat" msprop:Generator_ColumnPropNameInRow="Alamat" msprop:Generator_ColumnPropNameInTable="AlamatColumn" msprop:Generator_UserColumnName="Alamat" type="xs:string" minOccurs="0" />
+              <xs:element name="NoHP" msprop:Generator_ColumnVarNameInTable="columnNoHP" msprop:Generator_ColumnPropNameInRow="NoHP" msprop:Generator_ColumnPropNameInTable="NoHPColumn" msprop:Generator_UserColumnName="NoHP" type="xs:string" />
+              <xs:element name="JenisPelanggan" msprop:Generator_ColumnVarNameInTable="columnJenisPelanggan" msprop:Generator_ColumnPropNameInRow="JenisPelanggan" msprop:Generator_ColumnPropNameInTable="JenisPelangganColumn" msprop:Generator_UserColumnName="JenisPelanggan" type="xs:string" minOccurs="0" />
+              <xs:element name="IDMenu" msprop:Generator_ColumnVarNameInTable="columnIDMenu" msprop:Generator_ColumnPropNameInRow="IDMenu" msprop:Generator_ColumnPropNameInTable="IDMenuColumn" msprop:Generator_UserColumnName="IDMenu" type="xs:string" />
+              <xs:element name="NamaMenu" msprop:Generator_ColumnVarNameInTable="columnNamaMenu" msprop:Generator_ColumnPropNameInRow="NamaMenu" msprop:Generator_ColumnPropNameInTable="NamaMenuColumn" msprop:Generator_UserColumnName="NamaMenu" type="xs:string" minOccurs="0" />
+              <xs:element name="Qty" msprop:Generator_ColumnVarNameInTable="columnQty" msprop:Generator_ColumnPropNameInRow="Qty" msprop:Generator_ColumnPropNameInTable="QtyColumn" msprop:Generator_UserColumnName="Qty" type="xs:short" minOccurs="0" />
+              <xs:element name="Harga" msprop:Generator_ColumnVarNameInTable="columnHarga" msprop:Generator_ColumnPropNameInRow="Harga" msprop:Generator_ColumnPropNameInTable="HargaColumn" msprop:Generator_UserColumnName="Harga" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Pelanggan" />
+      <xs:field xpath="mstns:IDPelanggan" />
+    </xs:unique>
+    <xs:unique name="Menu_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Menu" />
+      <xs:field xpath="mstns:IDMenu" />
+    </xs:unique>
+    <xs:unique name="Meja_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Meja" />
+      <xs:field xpath="mstns:NoMeja" />
+    </xs:unique>
+    <xs:unique name="Sales_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Sales" />
+      <xs:field xpath="mstns:IDMenu" />
+      <xs:field xpath="mstns:SalesID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
